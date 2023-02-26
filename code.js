@@ -43,8 +43,10 @@ newListButton.addEventListener('click', ()=>{
     const itemContent = document.createElement('div');
     const check = document.createElement('input');
     check.setAttribute('type' , 'checkbox');
-    const checkLabel = document.createElement('label');
-    checkLabel.textContent = 'task here';
+    const checkLabel = document.createElement('input');
+    checkLabel.setAttribute('placeholder' , 'Task here');
+    checkLabel.setAttribute('type' , 'text');
+    checkLabel.setAttribute('class' , 'noteContent');
     itemContent.appendChild(check);
     itemContent.appendChild(checkLabel);
     listItem.appendChild(itemContent);

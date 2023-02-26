@@ -143,6 +143,20 @@ textarea:focus{
     padding: 0px;
 }
 
+.noteContent{
+    
+    outline: none;
+    border-width: 0;
+    background-color: transparent;   
+    border-radius: 20px; 
+    font-family: Oxygen;
+    font-weight: bold;
+}
+
+.noteContent:focus{
+    background-color: rgba(189, 130, 244, 0.83);
+}
+
 
 
 
