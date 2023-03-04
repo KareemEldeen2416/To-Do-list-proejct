@@ -87,12 +87,12 @@ textarea:focus{
 
 .collection{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
     text-align: center;
     height: fit-content;
     width: 98%;
-    margin-right: 40px;
-    border: 10px solid beige;
+    margin-left:30px;
+   
 }
 
 
@@ -118,8 +118,16 @@ textarea:focus{
     padding-right: 10px;
     padding-left: 10px;
     background-color: white;
+    font-family: Oxygen;
+    font-weight: bold;
+    border-width: 0;
     border-radius: 50px;
+    outline: none;
 
+}
+
+.noteTitle::placeholder{
+    color: grey;
 }
 
 .listTitle{
@@ -151,10 +159,48 @@ textarea:focus{
     border-radius: 20px; 
     font-family: Oxygen;
     font-weight: bold;
+    font-size: 12pt;
 }
 
-.noteContent:focus{
-    background-color: rgba(189, 130, 244, 0.83);
+
+
+.addNote{
+
+margin-left: 60px;
+font-family: Oxygen;
+font-weight: bold;
+background-color:  white;
+width: 20px;
+height: 20px;
+padding: 2px;
+text-align: center;
+border-radius: 10px;
+border-width: 0;
+outline: none;
+
+}
+
+.box{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+
+.box:hover{
+    scale: 1.2;
+}
+
+.yellow{background-color: #fdf3b1;}
+.blue{background-color: #8ecdef;}
+.purple{background-color: rgba(189, 130, 244, 0.83);}
+.pink{background-color: #fdbef6;}
+.grey{background-color: #dadadb;}
+
+.colorList{
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 
